@@ -23,12 +23,6 @@
         </activity>
         <activity android:name=".ui.detail.DetailActivity"></activity>
         <activity android:name=".ui.browser.BrowserActivity"></activity>
-        <!-- receivers -->
-        <receiver android:name=".ui.base.BaseActivity$ConnectivityChangeReceiver" >
-            <intent-filter>
-                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
-            </intent-filter>
-        </receiver>
     </application>
 
 </manifest>

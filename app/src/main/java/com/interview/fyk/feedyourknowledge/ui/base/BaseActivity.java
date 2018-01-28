@@ -38,7 +38,16 @@ public abstract class BaseActivity extends AppCompatActivity implements MvpView 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        connectivityBroadcastReceiver = new ConnectivityChangeReceiver();
+        connectivityBroadcastReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                if(!checkNetworkConnectionState()) {
+                    networkNotConnected();
+                } else {
+                    networkConnected();
+                }
+            }
+        };
     }
 
     @Override
@@ -151,16 +160,4 @@ public abstract class BaseActivity extends AppCompatActivity implements MvpView 
         return this;
     }
 
-    private class ConnectivityChangeReceiver extends BroadcastReceiver {
-
-        @Override
-        public void onReceive(final Context context, final Intent intent) {
-            if(!checkNetworkConnectionState()) {
-                networkNotConnected();
-            } else {
-                networkConnected();
-            }
-        }
-
-    }
 }

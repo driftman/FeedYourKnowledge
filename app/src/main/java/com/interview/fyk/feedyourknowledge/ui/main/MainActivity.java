@@ -121,4 +121,15 @@ public class MainActivity extends BaseActivity implements
         infoMessage.setText(getString(R.string.loading));
     }
 
+    @Override
+    public void networkNotConnected() {
+        super.networkNotConnected();
+        swipeRefreshLayout.setEnabled(false);
+    }
+
+    @Override
+    public void networkConnected() {
+        super.networkConnected();
+        swipeRefreshLayout.setEnabled(true);
+    }
 }

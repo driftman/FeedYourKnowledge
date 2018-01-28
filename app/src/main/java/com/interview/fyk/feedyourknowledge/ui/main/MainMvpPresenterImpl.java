@@ -30,7 +30,6 @@ public final class MainMvpPresenterImpl<V extends MainMvpView>
     private V mainMvpView;
     private Integer currentFeed = RssOrigin.FRANCE;
     private RssInterface rssInterface;
-    private Boolean forceUpdate = false;
     private ChannelHelper channelHelper;
 
     private MainMvpPresenterImpl() {
@@ -73,10 +72,10 @@ public final class MainMvpPresenterImpl<V extends MainMvpView>
         if (!isViewAttached()) throw new MvpViewNotAttachedException();
     }
 
+
     @Override
     public void onViewInitialized(Boolean forceUpdate) {
         checkViewAttached();
-        this.forceUpdate = forceUpdate;
         // showing loading message
         mainMvpView.showLoading();
         mainMvpView.setToolbarTitle(null);
@@ -146,10 +145,8 @@ public final class MainMvpPresenterImpl<V extends MainMvpView>
         if (channel != null) {
             this.channel = channel;
             feedList();
-            // setting the next rss source
-            moveToNextFeed();
         } else {
-            mainMvpView.onError(R.string.network_error);
+            mainMvpView.onError(R.string.network_not_active);
         }
     }
 
