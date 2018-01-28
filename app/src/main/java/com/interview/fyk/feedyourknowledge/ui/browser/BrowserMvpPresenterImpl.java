@@ -12,8 +12,7 @@ public final class BrowserMvpPresenterImpl<V extends BrowserMvpView> implements 
 
     private V browserMvpView;
 
-    private BrowserMvpPresenterImpl() {
-    }
+    private BrowserMvpPresenterImpl() {}
 
     public static BrowserMvpPresenterImpl getInstance() {
         if (browserMvpPresenter == null)

@@ -45,13 +45,10 @@ public class MainActivity extends BaseActivity implements
     }
 
     @Override
-    public void showNoConnectivityInfoBar() {
-    }
+    public void showNoConnectivityInfoBar() {}
 
     @Override
-    public void hideNoConnectivityInfoBar() {
-
-    }
+    public void hideNoConnectivityInfoBar() {}
 
     @Override
     public void setRefreshing(Boolean refreshing) {

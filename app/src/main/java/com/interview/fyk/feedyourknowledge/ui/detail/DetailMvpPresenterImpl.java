@@ -16,9 +16,7 @@ public final class DetailMvpPresenterImpl<V extends DetailMvpView> implements De
     private FeedItem feedItem;
     private Boolean forceUpdate = false;
 
-    private DetailMvpPresenterImpl() {
-
-    }
+    private DetailMvpPresenterImpl() {}
 
     public static DetailMvpPresenterImpl getInstance() {
         if (detailMvpPresenterInstance == null)
@@ -48,7 +46,5 @@ public final class DetailMvpPresenterImpl<V extends DetailMvpView> implements De
     }
 
     @Override
-    public void handleError(Object error) {
-
-    }
+    public void handleError(Object error) {}
 }
