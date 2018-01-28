@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <include
+        android:id="@+id/no_connectivity"
+        layout="@layout/no_connectivity_info_bar_view"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_padding"
+            android:paddingRight="@dimen/activity_horizontal_padding">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_detail_items_margin"
+                android:text="Francophonie : le gouvernement part à la pêche aux idées pour le français en lançant un site Internet"
+                android:textColor="@color/black"
+                android:textSize="@dimen/abc_text_size_headline_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="FRANCE 24"
+                android:textSize="@dimen/abc_text_size_body_1_material" />
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/activity_detail_items_margin"
+                android:scaleType="centerCrop"
+                android:src="@drawable/prison_signature_m" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_detail_items_margin"
+                android:text="A fire that started Friday morning in a hospital emergency room in South Korea killed nearly 40 people, mainly from inhaling smoke, and injured dozens more in one of the country’s deadliest blazes in recent years."
+                android:textSize="@dimen/abc_text_size_body_1_material" />
+
+            <Button
+                android:id="@+id/go_website"
+                style="@style/FykButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_detail_items_margin"
+                android:layout_marginTop="@dimen/activity_detail_items_margin"
+                android:background="@drawable/button_view_website"
+                android:gravity="center"
+                android:text="VISITER SITE WEB"
+                android:textColor="@color/grey"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

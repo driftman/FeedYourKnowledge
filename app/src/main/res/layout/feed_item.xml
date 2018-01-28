@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/item_thumbnail"
+        android:layout_width="@dimen/feed_item_thumbnail_width"
+        android:layout_height="@dimen/feed_item_thumbnail_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:src="@drawable/prison_signature_m" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_thumbnail"
+        android:padding="0dp"
+        android:text="Francophonie : le gouvernement part à la pêche aux idées pour le français en lançant un site Internet"
+        android:textSize="@dimen/abc_text_size_subhead_material"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_title"
+        android:layout_toRightOf="@id/item_thumbnail"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/feed_item_author_date_space"
+            android:text="FRANCE 24"
+            android:textColor="@color/black"
+            android:textSize="@dimen/abc_text_size_body_1_material" />
+
+        <TextView
+            android:id="@+id/item_publication_time_ago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material" />
+
+    </LinearLayout>
+
+</RelativeLayout>

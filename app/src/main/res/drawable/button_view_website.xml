@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/button_view_website_active" android:state_checked="true"></item>
+
+    <item android:drawable="@drawable/button_view_website_active" android:state_activated="true"></item>
+
+    <item android:drawable="@drawable/button_view_website_active" android:state_pressed="true"></item>
+
+
+    <item android:drawable="@drawable/button_view_website_non_active" android:state_activated="false"></item>
+
+    <item android:drawable="@drawable/button_view_website_non_active" android:state_checked="false"></item>
+
+    <item android:drawable="@drawable/button_view_website_non_active" android:state_pressed="false"></item>
+
+</selector>
