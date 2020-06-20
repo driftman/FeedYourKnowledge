@@ -18,26 +18,14 @@ import java.util.List;
 @Root(name = "channel", strict = false)
 public class Channel {
 
-    @Element(name = "title")
-    private String title;
-
     @ElementList(inline = true, name="item")
     private List<FeedItem> mFeedItems;
 
     public Channel() {
     }
 
-    public Channel(String title, List<FeedItem> mFeedItems) {
-        this.title = title;
+    public Channel(List<FeedItem> mFeedItems) {
         this.mFeedItems = mFeedItems;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public List<FeedItem> getmFeedItems() {
@@ -45,10 +33,6 @@ public class Channel {
     }
 
     public void setmFeedItems(List<FeedItem> mFeedItems) {
-        this.mFeedItems = mFeedItems;
-    }
-
-    public Channel(List<FeedItem> mFeedItems) {
         this.mFeedItems = mFeedItems;
     }
 

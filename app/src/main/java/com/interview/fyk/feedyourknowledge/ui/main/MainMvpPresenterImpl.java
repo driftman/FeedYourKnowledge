@@ -135,7 +135,9 @@ public final class MainMvpPresenterImpl<V extends MainMvpView>
         mainMvpView.setRefreshing(false);
         // hiding loading message
         mainMvpView.hideLoading();
-        mainMvpView.setToolbarTitle(channel.getTitle());
+        String title = channel.getFeedItems() != null && !channel.getFeedItems().isEmpty() ?
+                channel.getFeedItems().get(0).getCategory() : "France 24"; // TODO
+        mainMvpView.setToolbarTitle(title);
     }
 
     @Override

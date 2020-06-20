@@ -15,11 +15,13 @@ public class FeedItem implements Parcelable {
 
     @Element(name = "title")
     private String title;
+    @Element(name = "category")
+    private String category;
     @Element(name = "link")
     private String link;
     @Element(name = "description")
     private String description;
-    @Element(name = "author")
+    @Element(name = "creator")
     private String author;
     @Element(name = "thumbnail")
     private Thumbnail thumbnail;
@@ -29,13 +31,14 @@ public class FeedItem implements Parcelable {
     public FeedItem() {
     }
 
-    public FeedItem(String pubDate, String title, String link, String description, String author, Thumbnail thumbnail) {
+    public FeedItem(String pubDate, String title, String link, String description, String author, Thumbnail thumbnail, String category) {
         this.pubDate = pubDate;
         this.title = title;
         this.link = link;
         this.description = description;
         this.author = author;
         this.thumbnail = thumbnail;
+        this.category = category;
     }
 
     protected FeedItem(Parcel in) {
@@ -45,6 +48,7 @@ public class FeedItem implements Parcelable {
         description = in.readString();
         author = in.readString();
         thumbnail = in.readParcelable(Thumbnail.class.getClassLoader());
+        category = in.readString();
     }
 
     public static final Creator<FeedItem> CREATOR = new Creator<FeedItem>() {
@@ -107,6 +111,14 @@ public class FeedItem implements Parcelable {
         this.thumbnail = thumbnail;
     }
 
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
 
     @Override
     public int describeContents() {
@@ -121,5 +133,6 @@ public class FeedItem implements Parcelable {
         parcel.writeString(description);
         parcel.writeString(author);
         parcel.writeParcelable(thumbnail, i);
+        parcel.writeString(category);
     }
 }

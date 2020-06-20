@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="eef44a34be1eef845ecb4072e3692b434af05ad4">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.0.2_1c3f77741bb09af4a2ed83f252ed128a1cf0088f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.2\8b68a849722b44f584e2d68c451c5e3844c10380\support-annotations-26.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8b68a849722b44f584e2d68c451c5e3844c10380">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.2_95c15b39ef547d8ee4c704fe45c7037ec25ea815.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_98e12152d832edac43a8177f676fc16132fab61a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_9bc2b1c402d7b25c63352f44363b95053f537312.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-simplexml\2.0.0-beta4\b2c7109510de86f643108253b663375909337c1c\converter-simplexml-2.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b2c7109510de86f643108253b663375909337c1c">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\converter-simplexml-2.0.0-beta4_e4bf4e6f7ef88cf05b373239acf8225bd7a37a2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="97cd0ab3ffad045a162fc1a413fe6abc58e199c4">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.0.2_4423dd66bb771adf2556abb766a14610cab4e8b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\org.simpleframework\simple-xml\2.7.1\dd91fb744c2ff921407475cb29a1e3fee397d411\simple-xml-2.7.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dd91fb744c2ff921407475cb29a1e3fee397d411">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\simple-xml-2.7.1_db3c6b317bf12035bd453665e884791c10a3ac39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\design\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53762fb1daacc5e5fb9ce83c4d00365f71c10f1a">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-design-26.0.2_949786e1769a3afc0977fe7d6615cfdb6f288503.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\design\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="53762fb1daacc5e5fb9ce83c4d00365f71c10f1a">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-design-26.0.2_949786e1769a3afc0977fe7d6615cfdb6f288503.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="f9f219b8a8acc35922ab06f4ff29769041481b4b">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-26.0.2_caf14143cc21f7dad0f50346dc49550d91f021c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f9f219b8a8acc35922ab06f4ff29769041481b4b">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-26.0.2_caf14143cc21f7dad0f50346dc49550d91f021c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-simplexml\2.0.0-beta4\b2c7109510de86f643108253b663375909337c1c\converter-simplexml-2.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="b2c7109510de86f643108253b663375909337c1c">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\converter-simplexml-2.0.0-beta4_e4bf4e6f7ef88cf05b373239acf8225bd7a37a2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="4e38f488b591fa8ef9dce3e21752c92bde5f6f7c">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-26.0.2_b3e44a38996db860a3d5ee10596462a6f5545387.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.0.2_d3cf0f84e7bb2434e7c0bb97b8b723856b90ee08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.2\8b68a849722b44f584e2d68c451c5e3844c10380\support-annotations-26.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="8b68a849722b44f584e2d68c451c5e3844c10380">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.2_95c15b39ef547d8ee4c704fe45c7037ec25ea815.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="94d358351559620a2c3d2ba3ac04d03a59a61bb3">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-26.0.2_004df7759eef65826b8305ff9c2469c8b58eda21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_9bc2b1c402d7b25c63352f44363b95053f537312.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\okhttp-3.8.0_44c52d901e0ee3ef76896446343b530de73a259e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.0.2\b9cd8fc6bd15cb915735d34535db30ece0c44603\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_c95223645fc8bc5604b87a4dc9be2354ce96c36c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\okio-1.13.0_0d07f21ffff93fb1e061ab5080ff9d5137684cb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\okhttp-3.8.0_44c52d901e0ee3ef76896446343b530de73a259e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b4a446c110c5a9f3a62907367d5eea4d4062c36a">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.0.2_5d2dcb5842b578ea2879c97440fd4fb2ee58e5b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.0.2\b9cd8fc6bd15cb915735d34535db30ece0c44603\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_c95223645fc8bc5604b87a4dc9be2354ce96c36c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="94d358351559620a2c3d2ba3ac04d03a59a61bb3">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-26.0.2_004df7759eef65826b8305ff9c2469c8b58eda21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\retrofit-2.3.0_e5c65d94096c2bd5ace275b7255453bd490bd526.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="b4a446c110c5a9f3a62907367d5eea4d4062c36a">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.0.2_5d2dcb5842b578ea2879c97440fd4fb2ee58e5b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="48a969b476c5c4bd8cabfe295428ff222bc68b8e">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.0.2_84295cad6fe43b24c5a76c2aca4d8982f00b7c41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\okio-1.13.0_0d07f21ffff93fb1e061ab5080ff9d5137684cb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="138b5e3a5341bb37117b13f327de68f81f9f0669">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.0.2_cb0ca375723d95ba201c5b3dc881b2cb96f8b79f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\retrofit-2.3.0_e5c65d94096c2bd5ace275b7255453bd490bd526.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_98e12152d832edac43a8177f676fc16132fab61a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="48a969b476c5c4bd8cabfe295428ff222bc68b8e">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.0.2_84295cad6fe43b24c5a76c2aca4d8982f00b7c41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="97cd0ab3ffad045a162fc1a413fe6abc58e199c4">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.0.2_4423dd66bb771adf2556abb766a14610cab4e8b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="eef44a34be1eef845ecb4072e3692b434af05ad4">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.0.2_1c3f77741bb09af4a2ed83f252ed128a1cf0088f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.0.2_d3cf0f84e7bb2434e7c0bb97b8b723856b90ee08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4e38f488b591fa8ef9dce3e21752c92bde5f6f7c">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-26.0.2_b3e44a38996db860a3d5ee10596462a6f5545387.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\transition\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="df0c541b5406292d1c3d74fc8ea119bde14e77b0">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-transition-26.0.2_51af708d40e22fbc8c55bba17a4891c456e4f18e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="28cb30c89c8e501ded77e960407731df6c54b844">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.0.2_8163f1aee7d86c2982b1a46fbd1c04e1887517e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\.gradle\caches\modules-2\files-2.1\org.simpleframework\simple-xml\2.7.1\dd91fb744c2ff921407475cb29a1e3fee397d411\simple-xml-2.7.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="dd91fb744c2ff921407475cb29a1e3fee397d411">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\simple-xml-2.7.1_db3c6b317bf12035bd453665e884791c10a3ac39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="28cb30c89c8e501ded77e960407731df6c54b844">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.0.2_8163f1aee7d86c2982b1a46fbd1c04e1887517e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="138b5e3a5341bb37117b13f327de68f81f9f0669">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.0.2_cb0ca375723d95ba201c5b3dc881b2cb96f8b79f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\exploded-aar\com.android.support\transition\26.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="df0c541b5406292d1c3d74fc8ea119bde14e77b0">
+        <dex dex="C:\Users\A653922\FeedYourKnowledge\app\build\intermediates\pre-dexed\debug\com.android.support-transition-26.0.2_51af708d40e22fbc8c55bba17a4891c456e4f18e.jar" />
+    </item>
+
+</items>

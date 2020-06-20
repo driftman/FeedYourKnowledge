@@ -1,7 +1,7 @@
 package com.interview.fyk.feedyourknowledge.ui.base;
 
 import android.content.Context;
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 
 /**
  * Base interface that should be used by every view in the MVP pattern.
