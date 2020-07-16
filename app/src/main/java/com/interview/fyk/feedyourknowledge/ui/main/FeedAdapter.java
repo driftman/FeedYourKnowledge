@@ -79,9 +79,16 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.ItemHolder> {
             title.setText(feedItem.getTitle());
             author.setText(feedItem.getAuthor());
             publicationTimeAgo.setText(timeAgo(feedItem.getPubDate()));
-            Picasso.with(context)
-                    .load(feedItem.getThumbnail().getUrl())
-                    .into(thumbnail);
+            if (feedItem.getThumbnail() != null && feedItem.getThumbnail().getUrl() != null && !feedItem.getThumbnail().getUrl().isEmpty()) {
+                Picasso.with(context)
+                        .load(feedItem.getThumbnail().getUrl())
+                        .into(thumbnail);
+            } else {
+                Picasso.with(context)
+                        .load(R.drawable.placeholder)
+                        .into(thumbnail);
+            }
+
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

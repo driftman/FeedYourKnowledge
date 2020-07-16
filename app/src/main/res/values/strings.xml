@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FeedYourKnowledge</string>
+    <string name="app_name">La Matinale du Monde</string>
     <string name="general_error">Une erreur inconnue est survenue</string>
     <string name="network_error">Une erreur réseau est survenue</string>
     <string name="network_not_active">Vous devez vous connecter</string>

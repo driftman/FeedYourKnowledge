@@ -5,6 +5,7 @@ import com.interview.fyk.feedyourknowledge.R;
 import android.util.Log;
 
 import com.interview.fyk.feedyourknowledge.data.db.ChannelHelper;
+import com.interview.fyk.feedyourknowledge.data.model.CategoryItem;
 import com.interview.fyk.feedyourknowledge.data.model.Channel;
 import com.interview.fyk.feedyourknowledge.data.model.Feed;
 import com.interview.fyk.feedyourknowledge.data.network.RssClient;
@@ -31,14 +32,18 @@ public final class MainMvpPresenterImpl<V extends MainMvpView>
     private Integer currentFeed = RssOrigin.FRANCE;
     private RssInterface rssInterface;
     private ChannelHelper channelHelper;
+    private CategoryItem category;
 
-    private MainMvpPresenterImpl() {
-
+    public MainMvpPresenterImpl(CategoryItem category) {
+        this.category = category;
     }
 
-    public static MainMvpPresenterImpl getInstance() {
-        if (mainMvpPresenterInstance == null)
-            mainMvpPresenterInstance = new MainMvpPresenterImpl();
+    public static MainMvpPresenterImpl getInstance(CategoryItem category) {
+        if (mainMvpPresenterInstance != null) {
+            mainMvpPresenterInstance.category = category;
+        } else {
+            mainMvpPresenterInstance = new MainMvpPresenterImpl(category);
+        }
         return mainMvpPresenterInstance;
     }
 
@@ -97,22 +102,7 @@ public final class MainMvpPresenterImpl<V extends MainMvpView>
     }
 
     private Call<Feed> getCurrentFeed() {
-        switch (currentFeed) {
-            case RssOrigin.FRANCE:
-                return rssInterface.getFranceChannel();
-            case RssOrigin.AFRICA:
-                return rssInterface.getAfricaChannel();
-            case RssOrigin.AMERICAS:
-                return rssInterface.getAmericasChannel();
-            case RssOrigin.ASIA:
-                return rssInterface.getAsiaChannel();
-            case RssOrigin.EUROPE:
-                return rssInterface.getEuropeChannel();
-            case RssOrigin.MIDDLE_EAST:
-                return rssInterface.getMiddleEastChannel();
-            default:
-                return rssInterface.getFranceChannel();
-        }
+        return rssInterface.getChannelFromServiceName(category.getServiceName());
     }
 
     @Override
@@ -135,8 +125,7 @@ public final class MainMvpPresenterImpl<V extends MainMvpView>
         mainMvpView.setRefreshing(false);
         // hiding loading message
         mainMvpView.hideLoading();
-        String title = channel.getFeedItems() != null && !channel.getFeedItems().isEmpty() ?
-                channel.getFeedItems().get(0).getCategory() : "France 24"; // TODO
+        String title = category.getTitle();
         mainMvpView.setToolbarTitle(title);
     }
 

@@ -9,8 +9,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.interview.fyk.feedyourknowledge.R;
+import com.interview.fyk.feedyourknowledge.data.model.CategoryItem;
 import com.interview.fyk.feedyourknowledge.ui.base.BaseActivity;
 import com.interview.fyk.feedyourknowledge.ui.detail.DetailActivity;
 
@@ -33,7 +35,8 @@ public class MainActivity extends BaseActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mPresenter = MainMvpPresenterImpl.getInstance();
+        CategoryItem category = getServiceName(savedInstanceState);
+        mPresenter = MainMvpPresenterImpl.getInstance(category);
         mPresenter.onAttach(this);
         initViews();
     }
@@ -128,5 +131,20 @@ public class MainActivity extends BaseActivity implements
     public void networkConnected() {
         super.networkConnected();
         swipeRefreshLayout.setEnabled(true);
+    }
+
+    /**
+     * Permet de retourner le nom du service depuis lequel on doit consommer les données
+     * @param bundle Bundle contenant les informations
+     * @return Nom du service
+     */
+    private CategoryItem getServiceName(Bundle bundle) {
+        if (getIntent().getExtras() != null && getIntent().getExtras().getParcelable(CategoryActivity.CATEGORY_ITEM) != null) {
+            return getIntent().getExtras().getParcelable(CategoryActivity.CATEGORY_ITEM);
+        } else if (bundle != null && bundle.getString(CategoryActivity.CATEGORY_ITEM) != null) {
+            return bundle.getParcelable(CategoryActivity.CATEGORY_ITEM);
+        } else {
+            return null;
+        }
     }
 }
